@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/img/favicon/site.webmanifest">
     <title>Home</title>
 </head>
-<body>
+<body class="bg-metallic relative">
     <!-- Navbar Beginning -->
-    <div class="navbar bg-white w-full h-14 pt-2 border-b-2">
-        <div class="container w-4/5 h-11 flex">
-            <div class="w-2/5 h-11 flex">
-                <img src="/img/js.svg" alt="js-logo" class="object-contain h-10 w-10">
-                <div class="nav-text text-black ml-1 mr-1 py-2 text-lg font-heading font-bold">Webby Docs</div>
-                <div class="version-number ml-1 py-1"><button class="version btn text-xs hover:bg-slate-200">v4.0.10</button></div>
+    <div class="navbar bg-carglass opacity-90 backdrop-blur-3xl fixed top-0 left-0 right-0 w-full h-[80px] pt-2 border-b-2">
+        <div class="container h-full flex">
+            <div class="w-2/5 h-full flex">
+                <img src="../assets/img/logo/logo.svg" alt="js-logo" class="h-[70px] w-[300px] text-tyre">
+                <!-- <div class="nav-text text-black ml-1 mr-1 py-2 text-lg font-heading font-bold">Webby Docs</div> -->
+                <!-- <div class="version-number ml-1 py-1"><button class="version btn text-xs hover:bg-slate-200">v4.0.10</button></div> -->
             </div>
             <div class="w-2/5 h-11 flex ml-auto justify-end">
                 <div class="nav-text text-black ml-1 mr-1 py-2 text-base font-semibold hover:text-slate-600"><a href="#">Docs</a></div>
@@ -29,5 +35,69 @@
         </div>
     </div>
     <!-- Navbar End -->
+
+    <!-- Logo Display Start -->
+    <div class="mt-[80px] h-[1000px]">
+        <div class="container h-full flex content-between pt-2">
+            <div class="basis-[12.5%] h-[300px] flex">
+                <img src="../assets/img/cars/audi.png" alt="" class="w-full px-1 align-middle my-auto mx-auto">
+            </div>
+            <div class="basis-[12.5%] h-[300px] flex">
+                <img src="../assets/img/cars/ferrari.png" alt="" class="w-full px-1 align-middle my-auto mx-auto">
+            </div>
+            <div class="basis-[12.5%] h-[300px] flex">
+                <img src="../assets/img/cars/kia.png" alt="" class="w-full px-1 align-middle my-auto mx-auto">
+            </div>
+            <div class="basis-[12.5%] h-[300px] flex">
+                <img src="../assets/img/cars/acura.png" alt="" class="w-full px-1 align-middle my-auto mx-auto">
+            </div>
+            <div class="basis-[12.5%] h-[300px] flex">
+                <img src="../assets/img/cars/alfa-romeo.png" alt="" class="w-full px-1 align-middle my-auto mx-auto">
+            </div>
+            <div class="basis-[12.5%] h-[300px] flex">
+                <img src="../assets/img/cars/honda.png" alt="" class="w-full px-1 align-middle my-auto mx-auto">
+            </div>
+            <div class="basis-[12.5%] h-[300px] flex">
+                <img src="../assets/img/cars/bentley.png" alt="" class="w-full px-1 align-middle my-auto mx-auto">
+            </div>
+            <div class="basis-[12.5%] h-[300px] flex">
+                <img src="../assets/img/cars/saturn.png" alt="" class="w-full align-middle my-auto mx-auto">
+            </div>
+        </div>
+    </div>
+    <!-- Logo Display End -->
+
+    <!-- Footer -->
+    <div id="footer" class="w-full">
+        <div class="bg-tyre h-[400px] block w-full">
+            <div class="container flex flex-col h-full p-8">
+                <div class="flex flex-row w-full mb-8">
+                    <div class="w-1/2 text-center">
+                        <h3 class="text-white text-4xl font-bold font-sans m-auto">DONE WITH QUALITY!</h3>
+                    </div>
+                    <div class="w-1/2 flex flex-col">
+                        <div class="location w-full mb-4">
+                            <p class="mb-4"><i class="bi bi-geo-alt-fill text-white text-lg"> Tuba Junction, Off Kasoa Road.</i></p>
+                            <p><i class="bi bi-geo-alt-fill text-white text-lg"> Lapaz, Nyamekye.</i></p>
+                        </div>
+                        <div class="email w-full mb-4">
+                            <p><i class="bi bi-envelope-open-fill text-white text-lg"> allmakes1977@yahoo.com</i></p>
+                        </div>
+                        <div class="postbox w-full mb-4">
+                            <p><i class="bi bi-mailbox2 text-white text-lg"> P.O Box NB 470 Nii Boi Town, Accra</i></p>
+                        </div>
+                        <div class="location w-full mb-4">
+                            <p class="mb-4"><i class="bi bi-telephone-fill text-white text-lg"> 054 035 8870</i></p>
+                            <p><i class="bi bi-telephone-fill text-white text-lg"> 020 063 7153</i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-full pt-2">
+                    <h5 class="font-semibold text-white text-center mx-auto"><a href="https://www.linkedin.com/in/dave-adams-471542171">Designed by <span class="underline hover:text-vinyllight"> davve.ad</span> &copy; 2022</a></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
 </body>
 </html>
