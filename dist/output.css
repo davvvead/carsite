@@ -600,12 +600,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 300px;
 }
 
-.h-\[400px\] {
-  height: 400px;
+.h-\[24px\] {
+  height: 24px;
 }
 
 .h-\[63px\] {
   height: 63px;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[64px\] {
+  height: 64px;
+}
+
+.h-\[21px\] {
+  height: 21px;
 }
 
 .w-full {
@@ -624,12 +636,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 7rem;
 }
 
-.w-1\/2 {
-  width: 50%;
+.w-\[63px\] {
+  width: 63px;
+}
+
+.w-\[56px\] {
+  width: 56px;
 }
 
 .w-\[64px\] {
   width: 64px;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .basis-\[12\.5\%\] {
