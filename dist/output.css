@@ -608,16 +608,44 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 63px;
 }
 
-.h-\[400px\] {
-  height: 400px;
-}
-
 .h-\[64px\] {
   height: 64px;
 }
 
 .h-\[21px\] {
   height: 21px;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[150px\] {
+  height: 150px;
+}
+
+.h-\[16px\] {
+  height: 16px;
+}
+
+.h-\[34px\] {
+  height: 34px;
+}
+
+.h-\[26px\] {
+  height: 26px;
+}
+
+.h-\[94px\] {
+  height: 94px;
+}
+
+.h-\[19px\] {
+  height: 19px;
+}
+
+.h-\[57px\] {
+  height: 57px;
 }
 
 .w-full {
@@ -652,8 +680,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 50%;
 }
 
-.basis-\[12\.5\%\] {
-  flex-basis: 12.5%;
+.w-\[52px\] {
+  width: 52px;
+}
+
+.basis-\[5\%\] {
+  flex-basis: 5%;
+}
+
+.basis-\[6\.25\%\] {
+  flex-basis: 6.25%;
 }
 
 .flex-row {
