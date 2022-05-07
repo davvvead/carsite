@@ -15,6 +15,12 @@ module.exports = {
       'vinyldark': '#404040',
       'tyre': '#0D0D0D',
     },
+    screens: {
+      'sp' : '320px',
+      'mp' : '375px',
+      'lp' : '425px',
+      'll' : '1440px',
+    },
     },
   },
   plugins: [],
