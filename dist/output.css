@@ -588,16 +588,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .block {
@@ -780,8 +776,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 64px;
 }
 
-.w-3\/5 {
-  width: 60%;
+.list-none {
+  list-style-type: none;
 }
 
 .flex-row {
@@ -806,6 +802,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .border-b-2 {
@@ -840,10 +840,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -852,6 +848,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pt-2 {
@@ -868,6 +869,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
 }
 
 .text-center {
@@ -1010,7 +1015,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1440px) {
-  .ll\:w-\[6\%\] {
-    width: 6%;
+  .ll\:w-\[6\.25\%\] {
+    width: 6.25%;
   }
 }
