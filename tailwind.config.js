@@ -10,7 +10,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       'carglass': '#F2F2F2',
-      'metallic': '#BFBFBF',
+      'metallic': '#E6E6FF',
       'vinyllight': '#8C8C8C',
       'vinyldark': '#404040',
       'tyre': '#0D0D0D',

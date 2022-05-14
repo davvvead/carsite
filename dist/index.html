@@ -18,34 +18,49 @@
 
 <body class="relative">
     <!-- Navbar Beginning -->
-    <div
+     <div
         class="navbar bg-carglass opacity-90 backdrop-blur-md fixed top-0 left-0 right-0 w-full h-[80px] pt-2 border-b-2">
         <div class="container h-full flex">
             <div class="w-2/5 h-full flex justify-start">
                 <img src="../assets/img/logo/logo.svg" alt="js-logo" class="h-[70px] w-[300px] text-tyre">
-                <!-- <div class="nav-text text-black ml-1 mr-1 py-2 text-lg font-heading font-bold">Webby Docs</div> -->
-                <!-- <div class="version-number ml-1 py-1"><button class="version btn text-xs hover:bg-slate-200">v4.0.10</button></div> -->
             </div>
             <div class="w-2/5 h-11 flex ml-auto justify-end">
                 <div class="nav-text text-black ml-1 mr-1 py-2 text-base font-semibold hover:text-slate-600"><a
-                        href="#">Docs</a></div>
+                        href="#about-section">About</a></div>
                 <div class="nav-text text-black ml-1 mr-1 py-2 text-base font-semibold hover:text-slate-600"><a
-                        href="#">Components</a></div>
+                        href="#services-section">Services</a></div>
                 <div class="nav-text text-black ml-1 mr-1 py-2 text-base font-semibold hover:text-slate-600"><a
-                        href="#">Blog</a></div>
-            </div>
-            <div class="w-28 h-11 flex ml-2 justify-start border-l-2 pl-2 pb-2">
-                <div class="nav-text text-black ml-1 mr-1 py-1 text-base"><a href="#"><i
-                            class="bi bi-sun text-3xl"></i></a></div>
-                <div class="nav-text text-black ml-1 mr-1 py-1 text-base"><a href="#"><i
-                            class="bi bi-github text-3xl"></i></a></div>
+                        href="#">Brands</a></div>
             </div>
         </div>
     </div>
     <!-- Navbar End -->
 
+    <!-- preloader -->
+<div class="loading-window h-full w-full fixed">
+    <div class="car">
+        <div class="strike"></div>
+        <div class="strike strike2"></div>
+        <div class="strike strike3"></div>
+        <div class="strike strike4"></div>
+        <div class="strike strike5"></div>
+        <div class="car-detail spoiler"></div>
+        <div class="car-detail back"></div>
+        <div class="car-detail center"></div>
+        <div class="car-detail center1"></div>
+        <div class="car-detail front"></div>
+        <div class="car-detail wheel"></div>
+        <div class="car-detail wheel wheel2"></div>
+    </div>
+
+    <div class="text">
+        <span>Loading</span><span class = "dots">...</span>
+    </div>
+</div>
+<!-- preloader -->
+
     <!-- About Section -->
-    <div id="about-section" class="h-full mt-20 pt-5 mb-5 bg-white">
+    <div id="brands-section" class="h-full mt-20 pt-5 mb-4 bg-white">
         <div class="container flex">
             <div class="hidden lg:block lg:w-3/5">
                 <img src="../assets/img/about/about2.png" alt="" class=" w-full py-10 pr-10">
@@ -54,7 +69,7 @@
                 <div class="about-title text-vinyldark text-4xl font-bold font-sans mb-4 text-center">
                     About Us
                 </div>
-                <p class="about-text text-justify">
+                <p class="about-text text-justify mb-4">
                     ALL MAKES ENGINEERING SERVICES (AMES) is a wholly Ghanaian owned legally
                     incorporated limited liability company and
                     duly licensed auto repair services centre
@@ -73,17 +88,17 @@
                     actions are guided by moral values and
                     professional ethics.
                  </p>
-                 <div class="about-title text-vinyldark text-3xl font-bold font-sans m-auto mb-4 text-center">
+                 <div class="about-title text-vinyldark text-4xl font-bold font-sans m-auto mb-4 text-center">
                     Our Vision
                 </div>
-                    <p class="about-text text-justify">
+                    <p class="about-text text-justify mb-4">
                         Our vision is to establish a standard and
                         world class auto repair garage whose
                         services and brand will not only be
                         accepted in Accra- but also other cities
                         in Ghana.
                     </p>
-                <div class="about-title text-vinyldark text-3xl font-bold font-sans m-auto mb-4 text-center">
+                <div class="about-title text-vinyldark text-4xl font-bold font-sans m-auto mb-4 text-center">
                     Our Mission
                 </div>
                     <p class="about-text text-justify">
@@ -105,7 +120,7 @@
     <!-- About Section End -->
 
     <!-- Services Section -->
-    <div id="about-section" class="h-full mt-20 pt-5 mb-5 bg-white">
+    <div id="services-section" class="h-full mt-20 pt-5 mb-4">
         <div class="container flex justify-center">
             <div class="hidden lg:block lg:w-3/5">
                 <img src="../assets/img/about/about.jpg" alt="" class=" w-full py-10 pr-10">
@@ -115,16 +130,19 @@
                         Services
                     </div>
                     <ul class="list-none">
-                        <li class="text-2xl mb-4"><i class="bi bi-tools"></i> Mechanical Repairs</li>
-                        <li class="text-2xl mb-4"><i class="bi bi-tools"></i> Electrical Repairs</li>
-                        <li class="text-2xl mb-4"><i class="bi bi-tools"></i> General Vehicle Maintenance</li>
-                        <li class="text-2xl mb-4"><i class="bi bi-tools"></i> General Servicing</li>
-                        <li class="text-2xl mb-4"><i class="bi bi-tools"></i> Body Works and Spraying</li>
-                        <li class="text-2xl mb-4"><i class="bi bi-tools"></i> Automobile Training</li>
-                        <li class="text-2xl mb-4"><i class="bi bi-tools"></i> Vehicle Hiring</li>
-                        <li class="text-2xl mb-4"><i class="bi bi-tools"></i> Export of vehicle parts</li>
-                        <li class="text-2xl mb-4"><i class="bi bi-tools"></i> Import of vehicle parts</li>
+                        <li class="mb-4"><i class="bi bi-tools mr-2"></i> Mechanical Repairs</li>
+                        <li class="mb-4"><i class="bi bi-tools mr-2"></i> Electrical Repairs</li>
+                        <li class="mb-4"><i class="bi bi-tools mr-2"></i> General Vehicle Maintenance</li>
+                        <li class="mb-4"><i class="bi bi-tools mr-2"></i> General Servicing</li>
+                        <li class="mb-4"><i class="bi bi-tools mr-2"></i> Body Works and Spraying</li>
+                        <li class="mb-4"><i class="bi bi-tools mr-2"></i> Automobile Training</li>
+                        <li class="mb-4"><i class="bi bi-tools mr-2"></i> Vehicle Hiring</li>
+                        <li class="mb-4"><i class="bi bi-tools mr-2"></i> Export of vehicle parts</li>
+                        <li class="mb-4"><i class="bi bi-tools mr-2"></i> Import of vehicle parts</li>
                       </ul>
+                      <div class="w-[150px\] text-center mt-4">
+                        <button class="bg-black rounded-xl w-[180px] h-[40px] text-white text-2xl mt-4">Contact Us</button>
+                    </div>
             </div>
         </div>
     </div>
@@ -132,10 +150,10 @@
     
     <!-- Logo Display Start -->
     <!-- Logo row -->
-    <div class=" h-full pt-5">
+    <div class="h-full mt-20 pt-5 mb-5">
         <div class="logo-title text-center">
             <h3 class="text-vinyldark text-4xl font-bold font-sans m-auto">BRANDS</h5>
-                <h6 class="text-vinyllight text-2xl font-bold font-sans m-auto">We attend to all brands and not limited
+                <h6 class="text-vinyllight text-2xl font-bold font-sans mx-auto">We attend to all brands and not limited
                     to...</h6>
         </div>
         <div class="container h-full flex flex-wrap content-between pt-2">
@@ -299,14 +317,14 @@
     <!-- Logo Display End -->
 
     <!-- Footer -->
-    <div id="footer" class="w-full">
+    <div id="footer" class="w-full mt-20">
         <div class="bg-tyre h-full block w-full">
             <div class="container flex flex-col h-full p-8">
                 <div class="flex flex-row flex-wrap w-full mb-8">
-                    <div class="w-full text-center md:w-1/2 sp:mb-5">
+                    <div class="w-full text-center md:w-2/5 sp:mb-5">
                         <h3 class="text-white text-4xl font-bold font-sans m-auto">DONE WITH QUALITY!</h3>
                     </div>
-                    <div class="w-full md:w-1/2 flex flex-col">
+                    <div class="w-full md:w-1/5 flex flex-col">
                         <div class="location w-full mb-4">
                             <p class="mb-4"><i class="bi bi-geo-alt-fill text-white text-lg"> Tuba Junction, Off Kasoa
                                     Road.</i></p>
@@ -315,12 +333,25 @@
                         <div class="email w-full mb-4">
                             <p><i class="bi bi-envelope-open-fill text-white text-lg"> allmakes1977@yahoo.com</i></p>
                         </div>
+                    </div>
+                    <div class="w-full md:w-1/5 flex flex-col">
                         <div class="postbox w-full mb-4">
                             <p><i class="bi bi-mailbox2 text-white text-lg"> P.O Box NB 470 Nii Boi Town, Accra</i></p>
                         </div>
                         <div class="location w-full mb-4">
                             <p class="mb-4"><i class="bi bi-telephone-fill text-white text-lg"> 054 035 8870</i></p>
                             <p><i class="bi bi-telephone-fill text-white text-lg"> 020 063 7153</i></p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/5 flex flex-col">
+                        <div class="location w-full mb-4">
+                            <a href="#about-section" class="text-white text-lg">About</a>
+                        </div>
+                        <div class="email w-full mb-4">
+                            <a href="#services-section" class="text-white text-lg">Services</a>
+                        </div>
+                        <div class="postbox w-full mb-4">
+                            <a href="#brands-section" class="text-white text-lg">Brands</a>
                         </div>
                     </div>
                 </div>
@@ -333,6 +364,12 @@
         </div>
     </div>
     <!-- Footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loading-window').fadeToggle();
+        }, 1500);
+  </script>
 </body>
 
 </html>
