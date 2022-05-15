@@ -564,16 +564,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: auto;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .ml-1 {
   margin-left: 0.25rem;
 }
 
 .mr-1 {
   margin-right: 0.25rem;
-}
-
-.ml-auto {
-  margin-left: auto;
 }
 
 .mt-20 {
@@ -853,11 +853,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -891,16 +886,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -916,12 +901,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-tyre {
@@ -1227,13 +1217,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: #000;
-  height: 200px;
-  left: 50%;
-  margin-left: -150px;
-  margin-top: -100px;
+  height: 100vh;
+  /* left: 50%; */
   position: fixed;
-  top: 50%;
-  width: 300px;
+  /* top: 50%; */
+  width: 100%;
   z-index: 99;
 }
 
@@ -1260,8 +1248,8 @@ body {
   position: absolute;
   width: 117px;
   height: 42px;
-  left: 92px;
-  top: 70px;
+  left: 50%;
+  top: 50%;
 }
 
 .car .strike {
@@ -1363,11 +1351,6 @@ body {
 
 .car-detail.wheel2 {
   left: 82px;
-}
-
-.hover\:bg-slate-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
 .hover\:text-slate-600:hover {
