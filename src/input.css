@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+#hero-section{
+  display: none;
+  @apply lg:block;
+  background-image: url(/assets/img/hero/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25%;
+  margin-top: -80px;
+}
+/* @media(min-width: 768px){
+  #hero-section{
+    display: block;
+  }
+} */
 
 @keyframes spin {
     0% {

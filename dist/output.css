@@ -559,14 +559,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: auto;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .ml-auto {
@@ -605,22 +609,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
-}
-
 .block {
   display: block;
 }
@@ -631,6 +619,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hidden {
   display: none;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .h-\[80px\] {
@@ -777,10 +769,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 140px;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .w-full {
   width: 100%;
 }
@@ -916,6 +904,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.5rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -935,6 +928,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -949,14 +946,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-vinyldark {
-  --tw-text-opacity: 1;
-  color: rgb(64 64 64 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-vinyldark {
+  --tw-text-opacity: 1;
+  color: rgb(64 64 64 / var(--tw-text-opacity));
 }
 
 .text-vinyllight {
@@ -978,6 +975,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
+
+#hero-section{
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  #hero-section {
+    display: block;
+  }
+}
+
+#hero-section{
+  background-image: url(/assets/img/hero/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25%;
+  margin-top: -80px;
+}
+
+/* @media(min-width: 768px){
+  #hero-section{
+    display: block;
+  }
+} */
 
 @-webkit-keyframes spin {
   0% {
@@ -1389,16 +1410,21 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .md\:w-\[12\.5\%\] {
     width: 12.5%;
   }
 
-  .md\:w-2\/5 {
-    width: 40%;
+  .md\:w-1\/3 {
+    width: 33.333333%;
   }
 
-  .md\:w-1\/5 {
-    width: 20%;
+  .md\:justify-end {
+    justify-content: flex-end;
   }
 }
 
@@ -1413,12 +1439,6 @@ body {
 
   .lg\:w-2\/5 {
     width: 40%;
-  }
-}
-
-@media (min-width: 320px) {
-  .sp\:mb-5 {
-    margin-bottom: 1.25rem;
   }
 }
 
