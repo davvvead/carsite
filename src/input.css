@@ -5,7 +5,7 @@
 #hero-section{
   display: none;
   @apply lg:block;
-  background-image: url(/assets/img/hero/image.png);
+  background-image: url(/assets/img/hero/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25%;
