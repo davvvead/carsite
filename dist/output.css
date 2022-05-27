@@ -805,10 +805,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 64px;
 }
 
-.w-\[16px\] {
-  width: 16px;
-}
-
 .basis-full {
   flex-basis: 100%;
 }
@@ -983,11 +979,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-vinyllight {
   --tw-text-opacity: 1;
   color: rgb(140 140 140 / var(--tw-text-opacity));
-}
-
-.text-green-600 {
-  --tw-text-opacity: 1;
-  color: rgb(22 163 74 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1433,17 +1424,25 @@ body {
   color: rgb(71 85 105 / var(--tw-text-opacity));
 }
 
-.hover\:text-vinyllight:hover {
-  --tw-text-opacity: 1;
-  color: rgb(140 140 140 / var(--tw-text-opacity));
-}
-
 .hover\:text-green-600:hover {
   --tw-text-opacity: 1;
   color: rgb(22 163 74 / var(--tw-text-opacity));
 }
 
+.hover\:text-vinyllight:hover {
+  --tw-text-opacity: 1;
+  color: rgb(140 140 140 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
+  .md\:ml-auto {
+    margin-left: auto;
+  }
+
+  .md\:h-full {
+    height: 100%;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -1458,6 +1457,10 @@ body {
 
   .md\:w-1\/5 {
     width: 20%;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
   }
 
   .md\:justify-end {
@@ -1488,6 +1491,29 @@ body {
 
   .lg\:w-1\/3 {
     width: 33.333333%;
+  }
+
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .lg\:pr-10 {
+    padding-right: 2.5rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .lp\:flex {
+    display: flex;
+  }
+
+  .lp\:w-2\/5 {
+    width: 40%;
+  }
+
+  .lp\:justify-start {
+    justify-content: flex-start;
   }
 }
 
